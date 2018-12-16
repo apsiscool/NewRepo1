@@ -38,6 +38,7 @@ public class loginTest extends Basetest {
 		boolean result=verifyTitle("vtiger CRM - Commercial Open Source CRM");
 		if(result)
 		{
+			System.out.println("This is GIT Code for verifyLoginPageTitle");
 			System.out.println("PASSED");
 			logger.log(LogStatus.PASS, "Title matched succcessfully");
 		}
@@ -59,6 +60,7 @@ public class loginTest extends Basetest {
 		boolean result=lp.verifyLogo(driver);
 		if(result)
 		{
+			System.out.println("This is GIT Code for verifyLoginPageLogo");
 			System.out.println("PASSED");
 			logger.log(LogStatus.PASS, "Logo is displaying succcessfully");
 		}
@@ -80,6 +82,7 @@ public class loginTest extends Basetest {
 		boolean result=lp.validLogin("admin", "admin");
 		if(result)
 		{
+			System.out.println("This is GIT Code for validLgoin");
 			System.out.println("PASSED");
 			logger.log(LogStatus.PASS, "Login successfully into application");
 		}
